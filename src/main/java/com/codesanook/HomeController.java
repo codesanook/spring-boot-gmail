@@ -27,8 +27,8 @@ public class HomeController {
         try {
 
             SimpleMailMessage message = new SimpleMailMessage();
-            String from = "admin@gmail.com";
-            String to = "theeranitp@gmail.com";
+            String from = "from@gmail.com";
+            String to = "to@gmail.com";
             String subject = "hello world";
             String body = "Hello world theeranitp";
             message.setFrom(from);
